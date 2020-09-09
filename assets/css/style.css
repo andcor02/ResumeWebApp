@@ -1113,6 +1113,7 @@ section {
   height: 600px;
 }
 
+
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
