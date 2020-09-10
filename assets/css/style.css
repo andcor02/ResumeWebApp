@@ -1108,11 +1108,14 @@ section {
   display: none;
 }
 
-.swiper-container {
-  width: 1000px;
-  height: 600px;
+.swiper-slider {
+  width:100%; height:0; padding-bottom:66%
 }
 
+.resize_video {
+  width: 100%;
+  height: 100%;
+  }
 
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
