@@ -1123,6 +1123,19 @@ section {
   }
 }
 
+figcaption {
+  background-color: none;
+  opacity: 1;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
