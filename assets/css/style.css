@@ -607,31 +607,19 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  border-top: 3px solid #d7dce1;
-  border-left: 3px solid #d7dce1;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
+  
 }
 
 .portfolio .portfolio-wrap .portfolio-info::after {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-  border-bottom: 3px solid #d7dce1;
-  border-right: 3px solid #d7dce1;
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
+
+}
+
+.spanfit{
+  padding: 10px;
+}
+
+.divfit{
+  margin: 10px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -643,7 +631,6 @@ section {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #45505b;
   font-size: 14px;
-  text-transform: uppercase;
   padding: 0;
   margin: 0;
 }
@@ -1102,6 +1089,9 @@ section {
 .portfolio-details .portfolio-info p {
   font-size: 15px;
   padding: 15px 0 0 0;
+}
+
+.portfolio-wrap-text {
 }
 
 .invisible{

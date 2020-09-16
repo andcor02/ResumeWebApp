@@ -216,3 +216,9 @@ var mySwiper = new Swiper('.swiper-container', {
     el: '.swiper-scrollbar',
   },
 })
+
+$('.divfit').textfill({
+  maxFontPixels: 12,
+  minFontPixels:2
+});
+
