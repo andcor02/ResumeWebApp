@@ -219,6 +219,6 @@ var mySwiper = new Swiper('.swiper-container', {
 
 $('.divfit').textfill({
   maxFontPixels: 12,
-  minFontPixels:2
+  minFontPixels:5
 });
 
